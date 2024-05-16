@@ -1,5 +1,4 @@
-
-terraform {
+ {
   backend "s3" {
     bucket         = "sylvester-static-website-234563" #replace with your own bucket name
     key            = "tutor/terraform/remote/s3/terraform.tfstate"
